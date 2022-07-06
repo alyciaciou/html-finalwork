@@ -1,0 +1,668 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+*,*::before,::after{
+    box-sizing: border-box;
+}
+
+/*layout start*/
+
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(60,60,60,0.7
+    );
+    padding: 19px 36px 19px 40px;
+}
+
+.top h1{
+    background-image: url(/html-finalwork/多頁式作業＿images/logo.png);
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 182px;
+    height: 36px;
+}
+
+.top ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top ul a{
+    padding: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.top ul a:hover{
+    color: #00cc99;
+    border-bottom: 5px solid #00cc99;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #323228;
+    padding: 35px 23px 35px 38px;
+}
+
+.company p{
+    color: #6a6a65;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.contact ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact ul a{
+    display: block;
+    padding: 18px;
+}
+
+/*layout end*/
+
+/*index start*/
+
+.banner-index{
+    padding-left: 40px;
+}
+
+.banner-index h2{
+    font-size: 40px;
+    color: #00cc99;
+    font-weight: bold;
+    line-height: 70px;
+    padding-top: 109px;
+    padding-bottom: 60px;
+}
+
+.banner-index h2 span{
+    color: white;
+}
+
+.banner-index a{
+    background: #00cc99;
+    padding: 16px 34px 16px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.banner-index a:hover{
+    background: white;
+    color: #00cc99;
+}
+
+.banner-index a span{
+    padding-left: 30px;
+}
+
+.header-index{
+    background-image: url(/html-finalwork/多頁式作業＿images/bg_index.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 138px;
+}
+
+.content-index{
+    padding: 58px 42px 60px 42px;
+}
+
+.content-index .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-index .title .describe{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.content-index .title h3{
+    font-size:32px ;
+    color: #00cc99;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.content-index .title p{
+    font-size: 18px;
+    color: #9b9b9b;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.content-index .title a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid #00cc99;
+    color: #00cc99;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.content-index .title a:hover{
+    background: #00cc99;
+    color: white;
+}
+
+.content-index ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-index li{
+    width: 300px;
+    text-align: center;
+    box-shadow:  2px 3px 5px  gray;
+    padding: 26px 20px 25px 20px;
+}
+
+.content-index li:hover{
+    box-shadow:  4px 4px 6px  black;
+}
+
+.content-index li h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #626262;
+}
+
+.content-index li p{
+    color: #9b9b9b;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: left;
+}
+
+.content-index .differnce{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 55px;
+    padding-bottom: 28px;
+}
+
+.content-index .differnce h3{
+    font-size:32px ;
+    color: #00cc99;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.content-index .differnce p{
+    font-size: 18px;
+    color: #9b9b9b;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.content-index th,.content-index td{
+    width: 235px;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+}
+
+.content-index th{
+    background: #ebebeb;
+}
+
+.content-index table span{
+    color: #00cc99;
+}
+
+.footer .information-index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 42px 59px 47px;
+    background: #ebebeb;
+}
+
+.footer .information-index p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+}
+
+.footer .information-index li{
+    padding-bottom: 23px;
+}
+
+.footer .information-index li input{
+    width: 461px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.btn{
+    text-align: end;
+}
+
+.btn input{
+    text-align: center;
+    width: 144px;
+    height: 48px;
+    letter-spacing: 10px;
+    font-size: 18px;
+    background: #00cc99;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn input:hover{
+    background: white;
+    color: #00cc99;
+    border: 1px solid #00cc99;
+}
+
+/*index end*/
+
+/*course start*/
+
+.header-course{
+    background-image: url(/html-finalwork/多頁式作業＿images/bg_course.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.banner-course{
+    padding-left: 40px;
+    padding-top: 108px;
+    padding-bottom: 180px;
+    position: relative;
+}
+
+.banner-course h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 59px;
+    letter-spacing: 2px;
+}  
+
+.banner-course h2 span{
+    color: #00cc99;
+    font-size: 18px;
+}
+
+.banner-course a{
+    background: #00cc99;
+    padding: 16px 34px 16px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.banner-course a:hover{
+    background: white;
+    color: #00cc99;
+}
+
+.banner-course a span{
+    padding-left: 30px;
+    
+}
+
+.banner-course ul{
+    display: flex;
+    position: absolute;
+    top: 36px;
+    right:57px ;
+    z-index: 10;
+}
+
+.content-course{
+    padding: 57px 200px;
+}
+
+.content-course .teacher{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 53px;
+}
+
+.content-course .teacher .pic{
+    display: flex;
+    align-items: center;
+}
+
+.content-course .pic p{
+    padding-left: 38px;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 55px;
+    letter-spacing: 2px;
+}
+
+.content-course .pic p span{
+    color: #00cc99;
+}
+
+.content-course .experience{
+    list-style: initial;
+    color: #9b9b9b;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.content-course .experience li{
+    padding-left: 30px;
+}
+
+.content-course h3{
+    font-size: 34px;
+    color: #00cc99;
+    font-weight: 700;
+    letter-spacing: 1.2;
+    margin-bottom: 30px;
+}
+
+.content-course h3 span{
+    font-size: 18px;
+    color: #9b9b9b;
+    font-weight: 700;
+}
+
+.content-course .study{
+    list-style: decimal;
+    line-height:1.5;
+    font-weight: 600;
+    margin-bottom: 54px;
+}
+
+.content-course .study li{
+    padding-left: 25px;
+}
+
+.content-course th,.content-course td{
+    width: 621px;
+    height: 48px;
+    text-align: left;
+    padding-left: 36px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.content-course table th{
+    background: #ebebeb;
+}
+
+.content-course table td{
+    color: #a2a2a2;
+}
+
+.information-course{
+    background: #ebebeb;
+    padding: 153px 185px 142px 199px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-course p{
+    font-size: 28px;
+    line-height: 58px;
+    font-weight: 600;
+}
+
+.information-course a{
+    background: #00cc99;
+    padding: 16px 34px 16px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.information-course a span{
+    padding-left: 30px;
+}
+
+.information-course a:hover{
+    background: white;
+    color: #00cc99;
+    border: 1px solid #00cc99;
+}
+
+/*course end*/
+
+/*feedback start*/
+
+.banner-feedback{
+    text-align: center;
+    padding-top: 186px;
+    padding-bottom: 189px;
+    background-image: url( /html-finalwork/多頁式作業＿images/bg_QA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-feedback h2{
+    color: white;
+    font-size: 42px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.banner-feedback p{
+    color: #00cc99;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.banner-feedback input{
+    width: 622px;
+    height: 51px;
+    border-radius: 5px;
+}
+
+.banner-feedback img{
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+
+.content-feedback{
+    padding: 0 115px 61px 115px;
+}
+
+.content-feedback h3{
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-bottom: 32px;
+    padding-top: 60px;
+    color: #00cc99;
+}
+
+.content-feedback h3 span{
+    font-size: 20px;
+    color: #9b9b9b;
+    padding-left: 16px;
+    letter-spacing: 1px;
+}
+
+.content-feedback h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.content-feedback p{
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+.content-feedback a{
+    text-decoration: none;
+    color: #00cc99;
+}
+
+.content-feedback .payment ul{
+    list-style: decimal;
+    padding-left: 35px;
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+.content-feedback .payment li{
+    padding-left: 20px;
+}
+
+.content-feedback .refund ul{
+    list-style: disc;
+    padding-left: 38px;
+    line-height: 1.5;
+    color: #9b9b9b;
+}
+
+.content-feedback .refund li{
+    padding-left: 27px;
+}
+
+.content-feedback .refund span{
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.information-feedback{
+    background:#ebebeb ;
+    display: flex;
+    justify-content: space-between;
+    padding: 118px 41px 60px 39px;
+}
+
+.information-feedback .form{
+    text-align: right;
+}
+
+.information-feedback p{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.information-feedback li{
+    padding-bottom: 17px;
+}
+
+.information-feedback li input{
+    width: 462px;
+    height: 54px;
+}
+
+/* textarea placeholder無法顯示*/
+.information-feedback textarea{
+    width: 462px;
+    height: 198px;
+}
+
+.information-feedback .submit input{
+    background: #00cc99;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 17px 31px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.information-feedback .submit input:hover{
+    background: white;
+    color: #00cc99;
+    border: 1px solid #00cc99;
+}
+
+/*feedback end*/
